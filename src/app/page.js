@@ -80,10 +80,14 @@ export default function Vadhyars() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold text-center my-4">
-        Find a Vadhyar Near You
-      </h1>
-
+      <div className="text-center mt-8 mb-6">
+        <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">
+          Find the Best Vadhyar Near You 🔍
+        </h1>
+        <p className="text-lg md:text-xl text-gray-600 mt-2">
+          Find Vadhyars for all your spiritual and religious events.
+        </p>
+      </div>
       {/* Filters Section */}
       <div className="flex flex-wrap justify-center gap-4 mb-6">
         {/* Language Filter */}
